@@ -1,21 +1,23 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 
-// Placeholder components - Builder 2, 3, 4 will create real ones
-const LoginPage = () => <div className="p-4">Login Page (Placeholder)</div>;
-const Layout = () => <div className="p-4"><p>Layout (Placeholder)</p><div className="mt-4 border p-4">Content Here</div></div>;
-const CitizenHome = () => <div>CitizenHome (Placeholder)</div>;
-const CreateReport = () => <div>CreateReport (Placeholder)</div>;
-const ReportDetails = () => <div>ReportDetails (Placeholder)</div>;
-const MapPage = () => <div>MapPage (Placeholder)</div>;
-const NotificationsPage = () => <div>NotificationsPage (Placeholder)</div>;
-const CommunityAdminDashboard = () => <div>CommunityAdminDashboard (Placeholder)</div>;
-const AIVerificationCenter = () => <div>AIVerificationCenter (Placeholder)</div>;
-const DepartmentDashboard = () => <div>DepartmentDashboard (Placeholder)</div>;
-const DepartmentReportView = () => <div>DepartmentReportView (Placeholder)</div>;
-const FieldWorkerDashboard = () => <div>FieldWorkerDashboard (Placeholder)</div>;
-const SuperAdminDashboard = () => <div>SuperAdminDashboard (Placeholder)</div>;
-const AnalyticsPage = () => <div>AnalyticsPage (Placeholder)</div>;
+// Import components
+import Layout from './components/Layout';
+
+// Import pages
+import LoginPage from './pages/LoginPage';
+import CitizenHome from './pages/CitizenHome';
+import CreateReport from './pages/CreateReport';
+import ReportDetails from './pages/ReportDetails';
+import MapPage from './pages/MapPage';
+import NotificationsPage from './pages/NotificationsPage';
+import CommunityAdminDashboard from './pages/CommunityAdminDashboard';
+import AIVerificationCenter from './pages/AIVerificationCenter';
+import DepartmentDashboard from './pages/DepartmentDashboard';
+import DepartmentReportView from './pages/DepartmentReportView';
+import FieldWorkerDashboard from './pages/FieldWorkerDashboard';
+import SuperAdminDashboard from './pages/SuperAdminDashboard';
+import AnalyticsPage from './pages/AnalyticsPage';
 
 function App() {
   return (
