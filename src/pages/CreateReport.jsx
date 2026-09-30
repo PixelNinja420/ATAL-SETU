@@ -116,11 +116,11 @@ export default function CreateReport() {
     });
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
     if (!formData.category || !formData.title || !formData.description) return;
     
-    const newReport = createReport({
+    const newReport = await createReport({
       ...formData,
       images: photoPreview ? [photoPreview] : []
     });
@@ -338,3 +338,4 @@ export default function CreateReport() {
     </div>
   );
 }
+
