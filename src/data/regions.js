@@ -1,0 +1,20 @@
+export const regions = [
+  { id: 'goa', name: 'Goa', type: 'state', parentId: null, lat: 15.2993, lng: 74.1240 },
+  { id: 'south-goa', name: 'South Goa', type: 'district', parentId: 'goa', lat: 15.2736, lng: 74.0722 },
+  { id: 'curchorem', name: 'Curchorem', type: 'municipality', parentId: 'south-goa', lat: 15.2637, lng: 74.1077 },
+  { id: 'curchorem-ward1', name: 'Ward 1', type: 'ward', parentId: 'curchorem', lat: 15.2650, lng: 74.1060 },
+  { id: 'curchorem-ward2', name: 'Ward 2', type: 'ward', parentId: 'curchorem', lat: 15.2660, lng: 74.1080 },
+  { id: 'curchorem-ward3', name: 'Ward 3', type: 'ward', parentId: 'curchorem', lat: 15.2637, lng: 74.1077 },
+  { id: 'curchorem-ward4', name: 'Ward 4', type: 'ward', parentId: 'curchorem', lat: 15.2610, lng: 74.1100 },
+  { id: 'margao', name: 'Margao', type: 'municipality', parentId: 'south-goa', lat: 15.2832, lng: 73.9862 },
+  { id: 'margao-ward1', name: 'Ward 1', type: 'ward', parentId: 'margao', lat: 15.2840, lng: 73.9850 },
+  { id: 'margao-ward2', name: 'Ward 2', type: 'ward', parentId: 'margao', lat: 15.2850, lng: 73.9870 },
+  { id: 'margao-ward3', name: 'Ward 3', type: 'ward', parentId: 'margao', lat: 15.2820, lng: 73.9880 },
+  { id: 'quepem', name: 'Quepem', type: 'municipality', parentId: 'south-goa', lat: 15.2131, lng: 74.0396 },
+  { id: 'quepem-ward1', name: 'Ward 1', type: 'ward', parentId: 'quepem', lat: 15.2140, lng: 74.0400 },
+  { id: 'quepem-ward2', name: 'Ward 2', type: 'ward', parentId: 'quepem', lat: 15.2120, lng: 74.0380 },
+  { id: 'north-goa', name: 'North Goa', type: 'district', parentId: 'goa', lat: 15.4909, lng: 73.8278 },
+  { id: 'panaji', name: 'Panaji', type: 'municipality', parentId: 'north-goa', lat: 15.4909, lng: 73.8278 },
+  { id: 'panaji-ward1', name: 'Ward 1', type: 'ward', parentId: 'panaji', lat: 15.4920, lng: 73.8290 },
+  { id: 'panaji-ward2', name: 'Ward 2', type: 'ward', parentId: 'panaji', lat: 15.4890, lng: 73.8260 }
+];
