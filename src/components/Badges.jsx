@@ -1,5 +1,4 @@
 import React from 'react';
-import { StatusBadge, PriorityBadge, CategoryBadge } from './Badges';
 
 const STATUSES = {
   reported: { label: 'Reported', color: 'blue' },
